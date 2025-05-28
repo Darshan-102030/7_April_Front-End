@@ -1,0 +1,111 @@
+*{
+		box-sizing:border-box;
+	}
+	
+	.row{
+		display:flex;
+	}
+	
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+		
+	
+	.banner{
+		background-image:url(image/mountain.jpg);
+		background-size:cover;
+		height:500px;
+		padding-left:30px;
+		padding-right:30px;
+	}
+	
+	.service{
+		background-color:white;
+		border:solid 1px LightGray;
+		border-radius:10px;
+		padding:10px;
+		position:absolute;
+		top:100px;
+		left:16%;
+		z-index:5;
+	}
+	
+	.service_box{
+		width:10%;
+		height:auto;
+		float:left;
+		text-align:center;
+	}
+	
+	.service_icon{
+		/*font-size:40px;*/
+		font-weight:bold;
+	}
+	
+	.mybtn{
+		font-size:20px;
+		color:white;
+		background-color:blue;
+		border:none;
+		border-radius:30px;
+		padding: 10px 50px 10px 50px;
+		position:absolute;
+		top:490px;
+		left:43%;
+		z-index:4
+	}
+
+    	.booking{
+		border:solid 1px LightGray;
+		border-radius:10px;
+		padding:10px;
+		background-color:white;
+		position:absolute;
+		top:160px;
+		left:8%;
+		z-index:3;
+	}
+	
+	.book_box{
+		border:solid 1px LightGray;
+		border-radius:10px;
+	}
+
+    .package{
+		border:solid 2px LightGray;
+		border-radius:10px;
+		padding:18px;
+		background-color:white;
+		position:absolute;
+		top:550px;
+		left:8%;
+	}
+	
+	.package_box1{
+		width:40%;
+		height:auto;
+		float:left;
+		padding:10px;
+	}
+	
+	
+	.package_box{
+		width:20%;
+		height:auto;
+		float:left;
+		padding:5px;
+	}
+	.package_box2{
+		border-radius:10px;
+		border:solid 1px lightGray;
+		
+	}
