@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Student Registration Form</title>
+</head>
+
+<body bgcolor="MistyRose"></body>
+
+<form method="post">
+
+    <fieldset>
+
+<form>
+    <table align="center" width="700" cellpadding="10">
+
+<tr>
+    <td colspun="2" align="center">
+        <h1> Student Registration Form </h1>
+    </td>
+</tr>
+
+<tr>
+    <td>Roll No:</td>
+   <td><input type="Number" name="number" autofocus></td><br><br>
+</tr>
+
+<tr>
+    <td>Student Name: </td>
+<td>
+    <input type="text" size="21" placeholder="First Name"/>
+    -   
+    <input type="text" size="21" placeholder="Last Name"/>
+</td>
+</tr>
+
+<tr>
+    <td>Father's name :</td>
+    <td><input type="text" size="50"/></td>
+  </tr>
+
+<tr>
+    <td>Date of birth : </td>
+<td>
+    <input type="text" size="3" placeholder="Date"/> -
+    <input type="text" size="3" placeholder="Month"/> -
+    <input type="text" size="8" placeholder="Year"/>
+    <i>(DD-MM-YYYY)</i>
+</td>
+</tr>
+
+<tr>
+    <td>Mobile No.:</td>
+<td>
+    <input type="Number" name="number" required pattern="{0-9}{10}" required minlength="0" maxlength="10" title="Add mobile"><br><br>
+</tr>
+
+<tr>
+    <td>Email id : </td>
+<td>
+    <input type="email" name="email" required /></td>
+</tr>
+
+<tr>
+    <td>Gender :</td>
+<td>
+    <input type="radio" name="g" /> Male
+    <input type="radio" name="g" /> Female
+</td>
+</tr>
+
+<tr>
+    <td> Department </td>
+<td>
+    <input type="checkbox" /> CSE
+    <input type="checkbox" /> IT
+    <input type="checkbox" /> Civil Eng
+    <input type="checkbox" /> web devloper
+</td>
+</tr>
+
+<tr>
+ <td>cours:</td>
+<td><select>
+    <option> ---------------------- Select Current Course's ------------------------ </option>
+        <option>Python</option>
+        <option>Node</option>
+        <option>Java</option>
+        <option>React</option>
+        <option>PHP</option>
+      </select>
+    </td>
+  </tr>
+
+<tr>
+    <td>Student photo :</td>
+        <td><input type="file" /></td>
+</tr>
+
+<tr>
+    <td>City</td>
+        <td><input type="text" size="50" /></td>
+</tr>
+
+<tr>
+    <td>Adress </td>
+    <td><textarea cols="48" rows="5"></textarea></td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center">
+    	<input type="submit" value="Register" />
+     </td>
+  </tr>
+
+</html>
